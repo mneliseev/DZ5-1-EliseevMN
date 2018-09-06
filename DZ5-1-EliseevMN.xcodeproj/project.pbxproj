@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B5277B92213E6EF600DCE57D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5277B91213E6EF600DCE57D /* AppDelegate.swift */; };
-		B5277B94213E6EF600DCE57D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5277B93213E6EF600DCE57D /* ViewController.swift */; };
 		B5277B97213E6EF600DCE57D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5277B95213E6EF600DCE57D /* Main.storyboard */; };
 		B5277B99213E6EF900DCE57D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5277B98213E6EF900DCE57D /* Assets.xcassets */; };
 		B5277B9C213E6EF900DCE57D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5277B9A213E6EF900DCE57D /* LaunchScreen.storyboard */; };
+		B5277BA5213E6F7100DCE57D /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5277BA4213E6F7100DCE57D /* FirstVC.swift */; };
+		B5277BA7213E6F8700DCE57D /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5277BA6213E6F8700DCE57D /* SecondVC.swift */; };
+		B5277BA9213E6FB400DCE57D /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5277BA8213E6FB400DCE57D /* ThirdVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B5277B8E213E6EF600DCE57D /* DZ5-1-EliseevMN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ5-1-EliseevMN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5277B91213E6EF600DCE57D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5277B93213E6EF600DCE57D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5277B96213E6EF600DCE57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5277B98213E6EF900DCE57D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5277B9B213E6EF900DCE57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5277B9D213E6EF900DCE57D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5277BA4213E6F7100DCE57D /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		B5277BA6213E6F8700DCE57D /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		B5277BA8213E6FB400DCE57D /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		B5277B90213E6EF600DCE57D /* DZ5-1-EliseevMN */ = {
 			isa = PBXGroup;
 			children = (
+				B5277BA3213E6F5E00DCE57D /* VC */,
 				B5277B91213E6EF600DCE57D /* AppDelegate.swift */,
-				B5277B93213E6EF600DCE57D /* ViewController.swift */,
 				B5277B95213E6EF600DCE57D /* Main.storyboard */,
 				B5277B98213E6EF900DCE57D /* Assets.xcassets */,
 				B5277B9A213E6EF900DCE57D /* LaunchScreen.storyboard */,
 				B5277B9D213E6EF900DCE57D /* Info.plist */,
 			);
 			path = "DZ5-1-EliseevMN";
+			sourceTree = "<group>";
+		};
+		B5277BA3213E6F5E00DCE57D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B5277BA4213E6F7100DCE57D /* FirstVC.swift */,
+				B5277BA6213E6F8700DCE57D /* SecondVC.swift */,
+				B5277BA8213E6FB400DCE57D /* ThirdVC.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5277B94213E6EF600DCE57D /* ViewController.swift in Sources */,
+				B5277BA9213E6FB400DCE57D /* ThirdVC.swift in Sources */,
 				B5277B92213E6EF600DCE57D /* AppDelegate.swift in Sources */,
+				B5277BA7213E6F8700DCE57D /* SecondVC.swift in Sources */,
+				B5277BA5213E6F7100DCE57D /* FirstVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
